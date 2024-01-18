@@ -1,0 +1,14 @@
+body{
+	margin: auto;
+	display: flex;
+}
+
+#main_infomation{
+	flex: 3;
+}
+
+#main_capacity{
+	flex: 7;
+}
+
+
