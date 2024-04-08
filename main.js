@@ -1,3 +1,9 @@
+if (screenWidth<=1000){
+    console.log(screenWidth, screenHeight)
+    bg_left[0].classList.remove('col-3');
+    bg_right[0].classList.remove('col-7');
+    console.log(bg_left)
+}
 window.addEventListener('resize', function() {
     const screenWidth = screen.width;
     const screenHeight = screen.height;
