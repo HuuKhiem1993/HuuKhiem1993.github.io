@@ -1,0 +1,52 @@
+
+$primary-color: blue
+
+@mixin set-size-icon($size)
+  width: $size
+  height: $size
+
+@mixin set-center
+    margin-left: auto
+    margin-right: auto
+
+.header
+    text-align: center
+    color: $primary-color
+    font-size: 50px
+
+.img-avata
+    border-radius: 50%
+    @include set-size-icon(200px)
+    @include set-center
+    
+
+.name
+    text-align: center
+    // font-size: 0.8rem
+
+.bg
+    &-left
+        border-radius: 10px
+        &_button
+            text-align: left
+            background-color: inherit
+            color: black
+            font-size: 0.8em
+            width: 100%
+            margin: 0.2em
+        
+        & .icon
+            @include set-size-icon(2em)
+        .info
+            width: 100%
+
+    &-right
+        .icon
+            @include set-size-icon(3em)
+        
+        .card
+            margin: 0.8em
+                
+
+
+    

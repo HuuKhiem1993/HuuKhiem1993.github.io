@@ -1,0 +1,43 @@
+.header {
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+}
+
+.img-avata {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  text-align: center;
+}
+
+.bg-left {
+  border-radius: 10px;
+}
+.bg-left_button {
+  text-align: left;
+  background-color: inherit;
+  color: black;
+  font-size: 0.8em;
+  width: 100%;
+  margin: 0.2em;
+}
+.bg-left .icon {
+  width: 2em;
+  height: 2em;
+}
+.bg-left .info {
+  width: 100%;
+}
+.bg-right .icon {
+  width: 3em;
+  height: 3em;
+}
+.bg-right .card {
+  margin: 0.8em;
+}
