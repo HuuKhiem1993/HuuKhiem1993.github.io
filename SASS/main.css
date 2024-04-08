@@ -39,5 +39,9 @@
   height: 3em;
 }
 .bg-right .card {
-  margin: 0.8em;
+  margin-top: 0.8em;
+}
+
+.padding-30 {
+  padding: 6rem;
 }
